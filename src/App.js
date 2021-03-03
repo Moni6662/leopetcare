@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './Header'
+import Nav from './Nav';
+import Section from "./Section";
+import Care from "./Care";
+import Service from "./Service";
+import Adopt from "./Adopt";
+import OverlaySection from "./OverlaySection";
+import ContectUs from  "./ContectUs";
+
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return(
+    <>
+     <Header/>
+     <Nav/>
+    <Switch>
+      <Route path="/" componant={Section}  exact/>
+      <Route path="/Care" componant={Care}  exact/>
+      <Route path="/Service" componant={Service}  exact/>
+      <Route path="/Adopt" componant={Adopt}  exact/>
+      <Route path="/OverlaySection" componant={OverlaySection}  exact/>
+      <Route path="/ContectUs" componant={ContectUs}  exact/>
+    </Switch>
+    {/* <Header/>
+    <Nav/>
+    <Section/>
+    <Care/>
+    <Service/>
+    <Adopt/>
+    <OverlaySection/>
+    <ContectUs/> */}
+    
+  </>
+  
+  ); 
 }
 
 export default App;

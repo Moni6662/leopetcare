@@ -1,0 +1,14 @@
+/* header */
+.header{
+    background: white;
+    text-align: right;
+    height: 100px;
+    color: blueviolet;
+}
+
+.btn-danger{
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+

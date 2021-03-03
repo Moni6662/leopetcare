@@ -1,0 +1,31 @@
+/* .container::after{
+    margin-top: 500px;
+} */
+.btn{
+    padding: 10px 50px;
+    border:2px solid transparent;
+    font-size: 14px;
+    border-bottom: 50px;
+    display: inline-block;
+    text-transform: uppercase;
+ 
+}
+.btn:hover{
+   background: rgb(202, 47, 47);
+   border:2px solid transparent;
+   font-size: 14px;
+   border-bottom: 50px;
+   display: inline-block;
+   text-transform: uppercase;
+
+
+}
+ul{
+    list-style: none;
+}
+li{
+    color: white;
+}
+a{
+    color: white;
+}

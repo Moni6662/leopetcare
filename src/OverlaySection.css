@@ -1,0 +1,23 @@
+
+
+.overlaySection{ 
+   margin-top: 150px;
+}
+.card-img-overlay{
+    background-color: white;
+    opacity: 0.5;
+    color: red;
+}
+.card-body h3{
+    
+   text-align: center;
+}
+.card-body p{
+    text-align: center;  
+}
+.card-body img{
+   border-radius: 50%; 
+   height: 100px;
+   width: 100px;
+  margin-left: 600px;
+}

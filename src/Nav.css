@@ -1,0 +1,39 @@
+.nav{
+  background: rgb(8,43,73);
+  color: white;
+  position:sticky;
+  top: 0;
+  z-index: 1000;
+}
+.nav ul{
+    margin-top: 15px;
+}
+.nav li{
+    display: inline;
+    margin-left: 60px;  
+   
+
+}
+.nav li a{
+
+    color: white;
+    font-size: 20px;
+}
+.nav li a:hover{
+    text-decoration: none;
+    color: lightgreen;
+    
+   
+}
+.dropdwon{
+    display: inline;
+}
+.dropbtn{
+    background: inherit;
+    color: white;
+    outline: none;
+    border: none;
+    margin-left: 50px;
+    font-size: 20px;
+    
+}
