@@ -6,6 +6,7 @@ import Service from "./Service";
 import Adopt from "./Adopt";
 import OverlaySection from "./OverlaySection";
 import ContectUs from  "./ContectUs";
+import "./App.css";
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
