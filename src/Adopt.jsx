@@ -2,11 +2,11 @@ import "./Adopt.css";
 
 function Adopt() {
     return (
-        <div className="adopt">
+        <div className="adopt" id="page">
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
-                        <h1>heading</h1>
+                        <h1>Page</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore corporis, dolore dolorum sint velit sed adipisci laborum esse animi aliquid fuga doloribus pariatur. Quas laudantium, excepturi consectetur soluta laborum quo?</p>
                         <div className="row">
                             <div className="col-md-6">

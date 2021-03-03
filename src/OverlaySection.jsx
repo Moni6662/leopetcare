@@ -3,7 +3,7 @@ import img from "module";
 
 function OverlaySection() {
     return (
-        <div className="overlaySection" id="page">
+        <div className="overlaySection" id="blog">
             <div className="container-fliud">
                 <div className="row">
                    <div className="col-md-12">

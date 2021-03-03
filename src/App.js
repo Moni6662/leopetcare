@@ -14,7 +14,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 function App() {
   return(
     <>
-     <Header/>
+     {/* <Header/>
      <Nav/>
     <Switch>
       <Route path="/" componant={Section}  exact/>
@@ -23,15 +23,15 @@ function App() {
       <Route path="/Adopt" componant={Adopt}  exact/>
       <Route path="/OverlaySection" componant={OverlaySection}  exact/>
       <Route path="/ContectUs" componant={ContectUs}  exact/>
-    </Switch>
-    {/* <Header/>
+    </Switch> */}
+     <Header/>
     <Nav/>
     <Section/>
     <Care/>
     <Service/>
     <Adopt/>
     <OverlaySection/>
-    <ContectUs/> */}
+    <ContectUs/>
     
   </>
   

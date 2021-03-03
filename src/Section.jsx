@@ -2,7 +2,7 @@ import "./Section.css";
 
 function Section() {
     return (
-        <div className="section" id="section">
+        <div className="section" id="about">
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">
